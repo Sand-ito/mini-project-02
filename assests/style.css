@@ -14,3 +14,16 @@ h1 {
 h2 {
     text-align: center;
 }
+
+main {
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.container {
+    flex-wrap: wrap;
+    max-width: 33.33%;
+    border: dashed black;
+}
+
