@@ -1,9 +1,14 @@
 *{
     box-sizing: border-box;
-    background-color: slateblue;
+    background-color: var(--purp);
     color: white;
     font-family: monospace;
 }
+
+:root {
+    --purp: slateblue;
+    --light: #ADEAC3;
+  }
 
 h1 {
     font-size: 400%;
@@ -30,23 +35,24 @@ main {
     width: 300px;
     height: 300px;
     border-radius: 16px;
-    border: dashed #ADEAC3;
+    border: dashed var(--light);
 }
 
-.container:hover{
+.container:hover,
+.container:hover .header-box{
     box-shadow: 0px 0px 20px 4px rgba(159,201,199), 0px 0px 20px 4px rgba(159,201,199);
     transition: box-shadow 0.3s ease-in-out;
 }
 
 .header-box {
-    border: solid #ADEAC3;
+    border: solid var(--light);
     font-size: 20px;
     padding: 8px;
     width: 75%;
     margin: 0 auto;
     transform: translateY(-50%);
     border-radius: 16px;
-    background-color: slateblue;
+    background-color: var(--purp);
 }
 
 .explanation{
@@ -61,7 +67,7 @@ main {
 .example-code {
     justify-content: space-around;
     align-items: center;
-    background-image: linear-gradient(#78A2CC, #ADEAC3);
+    background-image: linear-gradient(#78A2CC, var(--light));
     border-radius: 16px;
     height: 150px;
     width: 250px;
