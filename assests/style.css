@@ -6,7 +6,11 @@ body {
     font-family: monospace;
 }
 
-header {
-    font-size: 200%;
-    justify-content: space-around;
+h1 {
+    font-size: 400%;
+    text-align: center;
+}
+
+h2 {
+    text-align: center;
 }
