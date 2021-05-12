@@ -17,6 +17,8 @@ h2 {
 }
 
 main {
+    margin: 0 auto;
+    max-width: 948px;
     display: flex;
     flex-wrap: wrap;
     justify-content: center;
