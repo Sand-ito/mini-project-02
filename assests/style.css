@@ -23,7 +23,30 @@ main {
 
 .container {
     flex-wrap: wrap;
-    max-width: 33.33%;
+    margin: 4px;
+    width: 300px;
+    height: 300px;
     border: dashed black;
 }
 
+.explanation{
+    box-sizing: border-box;
+    border: double darkblue;
+}
+
+.example-code {
+    justify-content: space-around;
+    align-items: center;
+    margin: 0 auto;
+    box-sizing: border-box;
+    border: solid black;
+    height: 150px;
+    width: 250px;
+    text-align: left;
+    white-space: pre-line;
+}
+
+footer {
+    font-size: 200%;
+    text-align: center;
+}
